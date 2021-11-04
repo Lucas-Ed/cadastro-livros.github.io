@@ -1,0 +1,10 @@
+1- Fazer o modelo-artisan -m
+2- informar os campos na migration e no model
+3- rodar a migration para criar as tabelas
+-----------------------------------------------
+4- via artisan criar o controller/usar book como referência no Authorcontroller.
+5-routes/ api.php/ criar as rotas do crude color / author/ author id
+
+6-testar no insonia 
+
+começar o front e ver chamada para api
