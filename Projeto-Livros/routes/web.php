@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 use Illuminate\Http\Request;
+//namespace App\Http\Controllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,15 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+
+//class BookController extends Controller {
+
+  //  public function index() {
+    //    return view('views/.index');
+ //   }
+
+//}
 

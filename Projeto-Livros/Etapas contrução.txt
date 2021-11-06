@@ -1,6 +1,7 @@
-1- Fazer o modelo-artisan -m
-2- informar os campos na migration e no model
-3- rodar a migration para criar as tabelas
+1- Fazer o modelo-artisan -m [X]
+2- informar os campos na migration e no model[X]
+- criar seeder com php artisan make:seeder AuthorsTableSeeder[X]
+3- rodar a migration para criar as tabelas[X]
 -----------------------------------------------
 4- via artisan criar o controller/usar book como referência no Authorcontroller.
 5-routes/ api.php/ criar as rotas do crude color / author/ author id
@@ -8,3 +9,13 @@
 6-testar no insonia 
 
 começar o front e ver chamada para api
+
+https://github.com/artesaos/laravel-docs/blob/master/pt_BR/migrations.md
+
+05-11
+1-gravar seeder no banco
+2- testar api's
+3- Fazer o Relacionamento
+06-11
+4-fazer o front juntamnte com o consumo da api
+5- testar a aplicação feita

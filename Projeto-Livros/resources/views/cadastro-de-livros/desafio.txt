@@ -1,0 +1,28 @@
+Desafio:
+
+Meu nome é Raquel, e trabalho no Grupo Opção, a qual você se candidatou recentemente a uma vaga na área de desenvolvimento de sistemas. Estou encaminhando um projeto bem simples que é parte da primeira fase da entrevista. Em anexo deixo também a modelagem necessária para atender as especificações obrigatórias do projeto.
+
+Características obrigatórias do sistema:
+- O sistema deve conter telas para o cadastro de Livros, Genêros e Autores
+- Deve ser respeitado o relacionamento entre as entidades. Sendo que:
+    - 1 livro pode ter vários gêneros e 1 gênero pode representar vários livros
+    - 1 autor pode ter vários livros, mas cada livro pode ter somente 1 autor
+- No cadastro de livros deve haver um espaço para informar vários gêneros. Fica aberto a forma como será feita (Javascript ou texto)
+- Deve haver uma tela para consulta de livros disponíveis para "locação", de forma que se todos os exemplares de um título estiverem "locados", o sistema deverá exibir estes livros juntamente com uma informação dizendo que o livro existe mas não está disponível no momento.
+- Na tela de consulta deve haver dois botões onde um informará a locação do livro e outro informará a devolução do livro.
+- O backend deve ser desenvolvido com a linguagem php (Puro ou utilizando framework)
+- Para o front end pode utilizar um template bootstrap ou outro qualquer (a vontade).
+- O sistema deve ser feito utilizando estrutura orientada a objetos
+- Utilizar banco de dados MySQL e disponibilizar sua estrutura juntamente com o projetoDiferenciais:- Implementar paginação na tela de consulta.
+- Criar filtro de livros por título na tela de consulta.
+- Utilizar o framework Laravel na sua versão 7 ou 8
+- Implementar controle de usuários com login do Sactum(Nativo do laravel)O projeto deve ser disponibilizado em repositório público ou privado no Github ou Bitbucket.
+
+
+nome do livro
+
+Genêros
+Autor
+________________
+consulta de livros
+Livros por título

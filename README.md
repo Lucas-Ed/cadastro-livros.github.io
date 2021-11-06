@@ -1,10 +1,12 @@
-# Desafio Criação de sistema de cadastro de livro com Laravel
+# Desafio Criação de sistema de cadastro de livro com :
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" height="150"></a></p>
 ### Referência de tutorial usado para fazer o projeto aqui: 
 
 [1](https://bit.ly/31yAPOJ)
 [2](https://www.toptal.com/laravel/restful-laravel-api-tutorial)
 [3](https://www.devmedia.com.br/exemplo-pratico-regras-e-tipos-de-relacionamentos-sql-server-2008-parte-3/18409)
 [4](https://dev.to/roxie/adding-and-removing-columns-from-existing-tables-using-laravel-migrations-389g)
+__________________________________________________________________
 Comandos utilizados no laravel:
 
 
@@ -12,7 +14,9 @@ Criar um novo projeto: laravel new Nome do projeto
 startar server local: php artisan serve
 Listar comandos laravel: lista comandos: php artisan
 criar migrations: php artisan make:model Models\\ModelBook -m
-cria as tabelas: php artisan migrate
+cria as tabelas: php artisan migrate 
+Criar um controller: php artisan make:controller Nome do controller
+Criar uma seeder: php artisan make:seeder GenerousTableSeeder 
 
 ---------------------------------------------------
 Etapas:
@@ -29,9 +33,9 @@ Etapas:
 
 
 
+[Consumir api](https://www.twilio.com/blog/criar-e-consumir-uma-api-restful-no-php-laravel)
 
-
-
+[relacionamento banco](https://matheusteixeira.com.br/blog/elaborando-relacionamentos-entre-modelos-no-laravel/)
 
 
 
