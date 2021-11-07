@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateGenerousesTable extends Migration
+class CreateGenerouTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateGenerousesTable extends Migration
      */
     public function up()
     {
-        Schema::create('generous', function (Blueprint $table) {
+        Schema::create('generou', function (Blueprint $table) {
             $table->id();
-            $table->text('descrition');          
+            $table->text('description'); 
             $table->timestamps();
         });
     }
@@ -27,6 +27,7 @@ class CreateGenerousesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('generous');
+        Schema::dropIfExists('generou');
     }
 }
+// Gerar uma migração desse tipo: php artisan make:migration create_Generou_Table

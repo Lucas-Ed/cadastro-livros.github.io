@@ -3,39 +3,39 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\GenerouTable;
 
-//use App\Http\Controllers\GenerousController;
-
-class GenerousController extends Controller
+class GenerouController extends Controller
 {
     public function index()
     {
-        return Generous::all();
+        return GenerouTable::all();
     }
  
     public function show($id)
     {
-        return Generous::find($id);
+        return GenerouTable::find($id);
     }
 
     public function store(Request $request)
     {
-        return Generous::create($request->all());
+        return GenerouTable::create($request->all());
     }
 
     public function update(Request $request, $id)
     {
-        $generous = Generous::findOrFail($id);
-        $generous->update($request->all());
+        $generou = GenerouTable::findOrFail($id);
+        $generou->update($request->all());
 
-        return $generous;
+        return $generou;
     }
     public function delete(Request $request, $id)
     {
-        $generous = Generous::findOrFail($id);
-        $generous->delete();
+        $generou = GenerouTable::findOrFail($id);
+        $generou->delete();
 
         return 204; // 204 No Content 
     }// //
 }
 ///////////////////////////
+

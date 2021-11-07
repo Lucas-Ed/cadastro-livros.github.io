@@ -3,9 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Generous;
+use App\Models\GenerouTable;
 
-class GenerousTableSeeder extends Seeder
+class GenerouTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,12 +14,13 @@ class GenerousTableSeeder extends Seeder
      */
     public function run()
     {
-        Generous::truncate();
+        GenerouTable::truncate();
 
-        Generous::create([
+        GenerouTable::create([
          'description'=>'Livro de ação'
         ]);
     }
 }
 // Rodar o seguinte comando para realizar a migration:
-//php artisan db:seed --class=GenerousTableSeeder
+// php artisan db:seed --class=GenerouTableSeeder
+// cria isa seeder igual essa php artisan make:seeder GenerouTableSeeder

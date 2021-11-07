@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\AuthorController;
-use App\Http\Controllers\GenerousController;
+use App\Http\Controllers\GenerouController;
 
 
 
@@ -34,10 +34,10 @@ Route::post('authors', [AuthorController::class, 'store']);
 Route::put('authors/{id}', [AuthorController::class, 'update']);
 Route::delete('authors/{id}', [AuthorController::class, 'delete']);
 
-Route::get('generous', [GenerousController::class, 'index']);
-Route::get('generous/{id}', [GenerousController::class, 'show']);
-Route::post('generous', [GenerousController::class, 'store']);
-Route::put('generous/{id}', [GenerousController::class, 'update']);
-Route::delete('generous/{id}', [GenerousController::class, 'delete']);
+Route::get('generous', [GenerouController::class, 'index']);
+Route::get('generous/{id}', [GenerouController::class, 'show']);
+Route::post('generous', [GenerouController::class, 'store']);
+Route::put('generous/{id}', [GenerouController::class, 'update']);
+Route::delete('generous/{id}', [GenerouController::class, 'delete']);
 
 
