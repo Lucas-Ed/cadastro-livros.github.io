@@ -9,7 +9,7 @@ __________________________________________________________________
 ________________________________________________________________
 ### Próximas etapas a serem feitas:
 
-* 1- Relaciomento da tabela books com a tabela generou.
+* 1- Relacionamento da tabela books com a tabela generou.
 * 2- Consulta de locação do livro.
 * 3- Testes de funcionamento da rota com o banco de dados entre as tabelas,  books e generou.
 * 4- Conexão backend com frontend usando a view.
