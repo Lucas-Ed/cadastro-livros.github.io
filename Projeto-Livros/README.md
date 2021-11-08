@@ -37,6 +37,15 @@ Etapas:
 
 [relacionamento banco](https://matheusteixeira.com.br/blog/elaborando-relacionamentos-entre-modelos-no-laravel/)
 
+Testar relacionamentos do banco
+
+1- no terminal: php artisan tinker
+2- tentando dados de uma model: \App\Models\Book::all();
+3-DB::table('books')->where('author','Robert Solow')->get()
+4- $Book->Author
+   Book::find('1')->Author
+3- sair do tinker: exit()
+
 http://127.0.0.1:8000/api/authors
 
 http://127.0.0.1:8000/api/generous

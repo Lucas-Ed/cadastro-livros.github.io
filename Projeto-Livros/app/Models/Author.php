@@ -11,8 +11,8 @@ class Author extends Model
     protected $fillable = ['id','nome'];
 
 
-    public function Book()
+    public function books()
     {
-        return $this->belongsTo(Book::class);//retorno do relaciomento entre bancos, é passado a classe do model Book.
+        return $this->hasMany(Book::class);//retorno do relaciomento entre bancos, é passado a classe do model Book.
     }
 }

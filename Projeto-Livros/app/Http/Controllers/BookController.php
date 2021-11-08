@@ -4,18 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Book;
+use App\Models\Author;
 
 class BookController extends Controller
 {
    
     public function index()
     {   
-        return Book::all();
+        return Book::with('author')->get();
+    
     }
  
     public function show($id)
     {
-        return Book::find($id);
+       
+       return Book::with('author')->get()->find($id);
+       //$book = Book::find($id);
+      // $author = Author::find($book.author_id);    
+       //return $author;
     }
 
     public function store(Request $request)
