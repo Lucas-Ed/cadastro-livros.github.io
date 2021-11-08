@@ -1,14 +1,13 @@
 # Desafio Criação de sistema de cadastro de livros com :
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" height="150"></a></p>
 
-
+#### Versão do Laravel utilizada: 8.69.0
 É meu primeiro contato com laravel, meu forte é Frontend, mas disposto a aprender mais a cada dia !
-### Versão do Laravel utilizada: 8.69.0
 __________________________________________________________________
 
-..........🚧🚧 Projeto em construção! 🏗 👷 🧱🚧..........
+### ..........🚧🚧 Projeto em construção! 🏗 👷 🧱🚧..........
 ________________________________________________________________
-Próximas etapas:
+### Próximas etapas:
 
 * 1- Relaciomento da tabela books com a tabela generou.
 * 2- Consulta de locação do livro.
