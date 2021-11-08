@@ -6,15 +6,15 @@
 ### Versão do Laravel utilizada: 8.69.0
 __________________________________________________________________
 
-### 🚧🚧 Projeto em construção! 🏗 👷 🧱🚧..........
+..........🚧🚧 Projeto em construção! 🏗 👷 🧱🚧..........
 ________________________________________________________________
 Próximas etapas:
 
-1- Relaciomento da tabela books com a tabela generou.
-2- Consulta de locação do livro.
-3- Testes de funcionamento da rota com o banco de dados entre as tabelas,  books e generou.
-4- Conexão backend com frontend usando a view.
-5- Inplementação de controle de usuários. 
+* 1- Relaciomento da tabela books com a tabela generou.
+* 2- Consulta de locação do livro.
+* 3- Testes de funcionamento da rota com o banco de dados entre as tabelas,  books e generou.
+* 4- Conexão backend com frontend usando a view.
+* 5- Inplementação de controle de usuários. 
 
 ________________________________________________________________
 ## Essa 1° versão tem o seguinte layout.
