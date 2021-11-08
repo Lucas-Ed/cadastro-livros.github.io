@@ -7,7 +7,7 @@ __________________________________________________________________
 
 ### ..........🚧🚧 Projeto em construção! 🏗 👷 🧱🚧..........
 ________________________________________________________________
-### Próximas etapas:
+### Próximas etapas a serem feitas:
 
 * 1- Relaciomento da tabela books com a tabela generou.
 * 2- Consulta de locação do livro.
@@ -16,7 +16,7 @@ ________________________________________________________________
 * 5- Inplementação de controle de usuários. 
 
 ________________________________________________________________
-## Essa 1° versão tem o seguinte layout.
+## Essa 1° versão tem o seguinte layout:
 
 ![](img/cadastro.png)
 <br></br>
